@@ -1,1 +1,11 @@
-https://raw.githubusercontent.com/DataEquipment/Kamude/master/ZeroTrust
+<?xml version="1.0" encoding="UTF-8"?>
+	<soa>
+		<name>Single Sign-On</name>
+		<chapters>
+		<level1 name="SSO" description="Single Sign-On">
+			<level2 name="SSO" description="Er dette enablet?">
+				<level3 name="SSO" description="SSO med AAD og Duo"/>
+			</level2>
+		</level1>
+	</chapters>
+</soa>
