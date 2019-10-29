@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<soa>
-		<name>Single Sign-On</name>
-		<chapters>
+<soa>
+	<name>Single Sign-On</name>
+	<chapters>
 		<level1 name="SSO" description="Single Sign-On">
 			<level2 name="SSO" description="Er dette enablet?">
 				<level3 name="SSO" description="SSO med AAD og Duo"/>
