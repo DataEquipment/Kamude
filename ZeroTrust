@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<soa>
+		<name>Zero Trust kontroller</name>
+		<chapters>
+		<level1 name="AIS" description="Identify the protect surface">
+			<level2 name="AIS" description="Application &amp; Interface Security">
+				<level3 name="AIS-01" description="Application Security"/>
+				<level3 name="AIS-02" description="Customer Access Requirements"/>
+			</level2>
+		</level1>
+		<level1 name="AAC" description="Map the transaction flows">
+			<level2 name="AAC" description="Audit Assurance &amp; Compliance">
+				<level3 name="AAC-01" description="Audit Planning"/>
+			</level2>
+		</level1>
+
+		<level1 name="AAC" description="Build a Zero Trust architecture">
+			<level2 name="AAC" description="Audit Assurance &amp; Compliance">
+				<level3 name="AAC-01" description="Audit Planning"/>
+			</level2>
+		</level1>
+
+		<level1 name="AAC" description="Create Zero Trust policy">
+			<level2 name="AAC" description="Audit Assurance &amp; Compliance">
+				<level3 name="AAC-01" description="Audit Planning"/>
+			</level2>
+		</level1>
+
+		<level1 name="AAC" description="Monitor and maintain">
+			<level2 name="AAC" description="Audit Assurance &amp; Compliance">
+				<level3 name="AAC-01" description="Audit Planning"/>
+			</level2>
+		</level1>
+
+	</chapters>
+</soa>
