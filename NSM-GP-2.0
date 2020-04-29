@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE soa PUBLIC "-//KAMUDE//DTD RTRMAP SOA//EN"
+                     "https://dtd.opengrc.org/examples/rtrmap-soa.dtd">
+<soa>
+    <lang>en-us</lang>
+    <name>NSM Grunnprinsipper for IKT-sikkerhet 2.0</name>
+    <chapters>
+        <level1 description="Kapittel 1. Identifisere og kartlegge" name="NSM GP 1">
+            <level2 description="Kartlegg styringsstrukturer, leveranser og understøttende systemer" name="NSM 1.1">
+                <level3 description="Identifiser virksomhetens strategi og prioriterte mål" name="NSM GP 1.1.1">
+                    <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
+                    <howto>Instructions for implementation of requirement one.</howto>
+                    <info>Additional references and support for requirement one.</info>
+                </level3>
+                <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 1.1.2">
+                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
+                    <howto>Instructions for implementation of requirement one.</howto>
+                    <info>Additional references and support for requirement one.</info>
+                </level3>
+
+            </level2>
+        </level1>
+    </chapters>
+</soa>
