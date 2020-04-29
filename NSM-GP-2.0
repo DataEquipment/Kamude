@@ -5,7 +5,44 @@
     <lang>en-us</lang>
     <name>NSM Grunnprinsipper for IKT-sikkerhet 2.0</name>
     <chapters>
-        <level1 description="Kapittel 1. Identifisere og kartlegge" name="NSM GP 1">
+        <level1 description="Kapittel 1. Identifisere og kartlegge" name="NSM Grunnprinsipper for IKT-sikkerhet">
+            <level2 description="Kartlegg styringsstrukturer, leveranser og understøttende systemer" name="NSM 1.1">
+                <level3 description="Identifiser virksomhetens strategi og prioriterte mål" name="NSM GP 1.1.1">
+                    <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
+                </level3>
+                <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 1.1.2">
+                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
+                </level3>
+                <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 1.1.3">
+                    <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
+                </level3>
+            </level2>
+            <level2 description="Kartlegg enheter og programvare" name="NSM 1.2">
+                <level3 description="Etabler en prosess for å kartlegge enheter og programvare som er i bruk i virksomheten" name="NSM GP 1.2.1">
+                    <goal>Etabler en prosess for å kartlegge enheter og programvare som er i bruk i virksomheten</goal>
+                </level3>
+                <level3 description="Fastsett retningslinjer for godkjente enheter og programvare i virksomheten" name="NSM GP 1.2.2">
+                    <goal>Fastsett retningslinjer for godkjente enheter og programvare i virksomheten</goal>
+                </level3>
+                <level3 description="Kartlegg enheter i bruk i virksomheten" name="NSM GP 1.2.3">
+                    <goal>Kartlegg enheter i bruk i virksomheten</goal>
+                </level3>
+            </level2>
+        </level1>
+        <level1 description="Kapittel 2. Beskytte og opprettholde" name="NSM Grunnprinsipper for IKT-sikkerhet">
+            <level2 description="Ivareta sikkerhet i anskaffelses- og utviklingsprosesser" name="NSM 2.1">
+                <level3 description="Integrer sikkerhet i virksomhetens prosess for anskaffelser" name="NSM GP 2.1.1">
+                    <goal>Integrer sikkerhet i virksomhetens prosess for anskaffelser</goal>
+                </level3>
+                <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 2.1.2">
+                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
+                </level3>
+                <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 2.1.3">
+                    <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
+                </level3>
+            </level2>
+        </level1>
+        <level1 description="Kapittel 3. Oppdage" name="NSM Grunnprinsipper for IKT-sikkerhet">
             <level2 description="Kartlegg styringsstrukturer, leveranser og understøttende systemer" name="NSM 1.1">
                 <level3 description="Identifiser virksomhetens strategi og prioriterte mål" name="NSM GP 1.1.1">
                     <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
@@ -18,7 +55,7 @@
                 </level3>
             </level2>
         </level1>
-        <level1 description="Kapittel 2. Identifisere og kartlegge" name="NSM GP 1">
+        <level1 description="Kapittel 4. Håndtere og gjenopprett" name="NSM Grunnprinsipper for IKT-sikkerhet">
             <level2 description="Kartlegg styringsstrukturer, leveranser og understøttende systemer" name="NSM 1.1">
                 <level3 description="Identifiser virksomhetens strategi og prioriterte mål" name="NSM GP 1.1.1">
                     <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
