@@ -9,15 +9,26 @@
             <level2 description="Kartlegg styringsstrukturer, leveranser og understøttende systemer" name="NSM 1.1">
                 <level3 description="Identifiser virksomhetens strategi og prioriterte mål" name="NSM GP 1.1.1">
                     <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
-                    <howto>Instructions for implementation of requirement one.</howto>
-                    <info>Additional references and support for requirement one.</info>
                 </level3>
                 <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 1.1.2">
                     <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
-                    <howto>Instructions for implementation of requirement one.</howto>
-                    <info>Additional references and support for requirement one.</info>
                 </level3>
-
+                <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 1.1.3">
+                    <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
+                </level3>
+            </level2>
+        </level1>
+        <level1 description="Kapittel 2. Identifisere og kartlegge" name="NSM GP 1">
+            <level2 description="Kartlegg styringsstrukturer, leveranser og understøttende systemer" name="NSM 1.1">
+                <level3 description="Identifiser virksomhetens strategi og prioriterte mål" name="NSM GP 1.1.1">
+                    <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
+                </level3>
+                <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 1.1.2">
+                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
+                </level3>
+                <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 1.1.3">
+                    <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
+                </level3>
             </level2>
         </level1>
     </chapters>
