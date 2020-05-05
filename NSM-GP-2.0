@@ -379,36 +379,33 @@
                     <goal>Kartlegg omfang og påvirkning på forretningsprosesser. Kartlegg hendelsens påvirkning på underliggende IKT-funksjoner, IKT-tjenester og IKT-systemer. Se 4.1.2. </goal>
                 </level3>
                 <level3 description="Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak" name="NSM GP 4.3.2">
-                    <goal>Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak. Dersom omfanget øker og ser ut til å få alvorlige konsekvenser for virksomhetens forretningsprosesser bør kriseresponsaktiviteter iverksettes ved å eskalere til krisehåndteringsfunksjonen. Eksempler på reaktive tiltak er:
-                        - Allokering av internt og eksternt personell for å håndtere hendelsen.
-                        - Innkapsling og blokkering av inntrenger for å hindre spredning.
-                        - Terminering av truende eller kompromitterende aktiviteter i systemer, for eksempel ved å stenge ned kompromitterte, interne servere som kan benyttes for videre angrep.</goal>
+                    <goal>Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak. Dersom omfanget øker og ser ut til å få alvorlige konsekvenser for virksomhetens forretningsprosesser bør kriseresponsaktiviteter iverksettes ved å eskalere til krisehåndteringsfunksjonen.</goal>
                 </level3>
                 <level3 description="Loggfør alle aktiviter, resultater og relevante avgjørelser" name="NSM GP 4.3.3">
-                    <goal>Loggfør alle aktiviteter, resultater og relevante avgjørelser for senere analyse. a) Etabler en tidslinje for egne og trusselaktørens aktiviteter. b) Oppdater hendelsesdata og situasjonsbilde underveis for best håndtering av hendelsen. c) Sikre elektroniske bevis for skadevareanalyse og eventuelle rettslige prosesser, se også prinsipp 3.2 - Etabler sikkerhetsovervåkning.</goal>
+                    <goal>Loggfør alle aktiviteter, resultater og relevante avgjørelser for senere analyse.</goal>
                 </level3>
                 <level3 description="Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen" name="NSM GP 4.3.4">
-                    <goal>Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen.</goal>
+                    <goal>Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen. Tiltakene vil variere avhengig av type hendelse</goal>
                 </level3>
                 <level3 description="Koordiner og kommuniser med interne og eksterne interessenter underveis i hendelseshåndtering" name="NSM GP 4.3.5">
-                    <goal>Koordiner og kommuniser med interne og eksterne interessenter underveis i hendelseshåndtering</goal>
+                    <goal>Koordiner og kommuniser med interne og eksterne interessenter underveis i hendelseshåndteringen. Dette kan være intern drift, ledelsen, interne avdelinger og andre virksomheter som kan bli påvirket av hendelsen. Virksomheten bør også ha en klar mediestrategi ved hendelser som kan ha en interesse for medier og allmenheten.</goal>
                 </level3>
                 <level3 description="Gjennomfør nødvendige aktiviteter i etterkant av hendelsen" name="NSM GP 4.3.6">
-                    <goal>Gjennomfør nødvendige aktiviteter i etterkant av hendelsen</goal>
+                    <goal>Gjennomfør nødvendige aktiviteter i etterkant av hendelsen. Alvorlighetsgrad av hendelsen og virksomhetens kompetanse og kapasitet vil være styrende for hva som gjennomføres og om det skal gjøres av internt eller eksternt personell.</goal>
                 </level3>
             </level2>
             <level2 description="Evaluer og lær av hendelser" name="NSM GP 4.4">
                 <level3 description="Identifiser erfaringer og læringspunkter («lessons learned») fra hendelser" name="NSM GP 4.4.1">
-                    <goal>Identifiser erfaringer og læringspunkter («lessons learned») fra hendelser.</goal>
+                    <goal>Identifiser erfaringer og læringspunkter («lessons learned») fra hendelser, både det som virket og det som kan forbedres.</goal>
                 </level3>
                 <level3 description="Kartlegg og gjennomgå identifiserte, kompromitterte sikkerhetstiltak" name="NSM GP 4.4.2">
-                    <goal>Kartlegg og gjennomgå identifiserte, kompromitterte sikkerhetstiltak</goal>
+                    <goal>Kartlegg og gjennomgå identifiserte, kompromitterte sikkerhetstiltak og oppdater eller forny disse for å hindre at en tilsvarende hendelse gjenoppstår. Vurder om etablerte tiltak er dekkende for virksomheten risikobilde.</goal>
                 </level3>
                 <level3 description="Vurdere effektiviteten av prosesser, prosedyrer, rapporteringsinformater og organisatoriske strukturer med tanke på å respondere på hendelser" name="NSM GP 4.4.3">
-                    <goal>Vurdere effektiviteten av prosesser, prosedyrer, rapporteringsinformater og organisatoriske strukturer med tanke på å respondere på hendelser</goal>
+                    <goal>Vurdere effektiviteten av prosesser, prosedyrer, rapporteringsformater og organisatoriske strukturer med tanke på å respondere på hendelser. Gjennomgå disse regelmessig, og etter hendelser, og oppdater basert på eventuelle læringspunktene.</goal>
                 </level3>
                 <level3 description="Kommuniser og del erfaringsresultatene med (relevante) interessenter" name="NSM GP 4.4.4">
-                    <goal>Kommuniser og del erfaringsresultatene med (relevante) interessenter</goal>
+                    <goal>Kommuniser og del erfaringsresultatene med (relevante) interessenter og bruk reelle historier fra hendelseshåndtering i opplæring og bevisstgjøring av ansatte.</goal>
                 </level3>
             </level2>
         </level1>
