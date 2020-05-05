@@ -16,6 +16,15 @@
                 <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 1.1.3">
                     <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
                 </level3>
+                <level3 description="Identifiser virksomhetens toleransegrenser for risiko knyttet til IKT" name="NSM GP 1.1.4">
+                    <goal>Identifiser virksomhetens toleransegrenser for risiko knyttet til IKT</goal>
+                </level3>
+                <level3 description="Kartlegg virksomhetens leveranser, informasjonssystemer og understøttende IKT-funksjoner" name="NSM GP 1.1.5">
+                    <goal>Kartlegg virksomhetens leveranser, informasjonssystemer og understøttende IKT-funksjoner</goal>
+                </level3>
+                <level3 description="Kartlegg informasjonsbehandling og dataflyt i virksomheten" name="NSM GP 1.1.6">
+                    <goal>Kartlegg informasjonsbehandling og dataflyt i virksomheten</goal>
+                </level3>
             </level2>
             <level2 description="Kartlegg enheter og programvare" name="NSM 1.2">
                 <level3 description="Etabler en prosess for å kartlegge enheter og programvare som er i bruk i virksomheten" name="NSM GP 1.2.1">
@@ -27,6 +36,20 @@
                 <level3 description="Kartlegg enheter i bruk i virksomheten" name="NSM GP 1.2.3">
                     <goal>Kartlegg enheter i bruk i virksomheten</goal>
                 </level3>
+                <level3 description="Kartlegg enheter i bruk i virksomheten" name="NSM GP 1.2.3">
+                    <goal>Kartlegg enheter i bruk i virksomheten</goal>
+                </level3>
+            </level2>
+            <level2 description="Kartlegg brukere og behov for tilgang" name="NSM 1.3">
+                <level3 description="Kartlegg brukere i informasjonssystemene" name="NSM GP 1.3.1">
+                    <goal>Kartlegg brukere i informasjonssystemene</goal>
+                </level3>
+                <level3 description="Kartlegg og definer de ulike brukerkategoriene" name="NSM GP 1.3.2">
+                    <goal>Kartlegg og definer de ulike brukerkategoriene</goal>
+                </level3>
+                <level3 description="Kartlegg ansvar og roller spesielt knyttet til IKT-sikkerhet" name="NSM GP 1.3.3">
+                    <goal>Kartlegg ansvar og roller spesielt knyttet til IKT-sikkerhet</goal>
+                </level3>
             </level2>
         </level1>
         <level1 description="Kapittel 2. Beskytte og opprettholde" name="NSM Grunnprinsipper for IKT-sikkerhet">
@@ -34,37 +57,356 @@
                 <level3 description="Integrer sikkerhet i virksomhetens prosess for anskaffelser" name="NSM GP 2.1.1">
                     <goal>Integrer sikkerhet i virksomhetens prosess for anskaffelser</goal>
                 </level3>
-                <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 2.1.2">
-                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
+                <level3 description="Kjøp moderne og oppdatert maskin- og programvare" name="NSM GP 2.1.2">
+                    <goal>Kjøp moderne og oppdatert maskin- og programvare</goal>
                 </level3>
-                <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 2.1.3">
-                    <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
+                <level3 description="Foretrekk IKT-produkter som er sertifiserte og evaluert av en tiltrodd tredjepart" name="NSM GP 2.1.3">
+                    <goal>Foretrekk IKT-produkter som er sertifiserte og evaluert av en tiltrodd tredjepart</goal>
+                </level3>
+                <level3 description="Reduser risiko for målrettet manipulasjon av IKT-produkter i leverandørkjeden" name="NSM GP 2.1.4">
+                    <goal>Reduser risiko for målrettet manipulasjon av IKT-produkter i leverandørkjeden</goal>
+                </level3>
+                <level3 description="Benytt en metode for sikker utvikling av programvare" name="NSM GP 2.1.5">
+                    <goal>Benytt en metode for sikker utvikling av programvare</goal>
+                </level3>
+                <level3 description="Benytt separate miljøer for utvikling, test og produksjon" name="NSM GP 2.1.6">
+                    <goal>Benytt separate miljøer for utvikling, test og produksjon</goal>
+                </level3>
+                <level3 description="Gjennomfør tilstrekkelig med testing gjennom hele utviklingsprosessen" name="NSM GP 2.1.7">
+                    <goal>Gjennomfør tilstrekkelig med testing gjennom hele utviklingsprosessen</goal>
+                </level3>
+                <level3 description="Vedlikehold programvarekode som utvikles/benyttes i virksomheten" name="NSM GP 2.1.8">
+                    <goal>Vedlikehold programvarekode som utvikles/benyttes i virksomheten</goal>
+                </level3>
+                <level3 description="Ta ansvar for virksomhetens sikkerhet også ved tjenesteutsetting" name="NSM GP 2.1.9">
+                    <goal>Ta ansvar for virksomhetens sikkerhet også ved tjenesteutsetting</goal>
+                </level3>
+                <level3 description="Undersøk sikkerheten hos tjenesteleverandør ved tjenesteutsetting" name="NSM GP 2.1.10">
+                    <goal>Undersøk sikkerheten hos tjenesteleverandør ved tjenesteutsetting</goal>
+                </level3>
+            </level2>
+            <level2 description="Etabler en sikker IKT-arkitektur" name="NSM 2.2">
+                <level3 description="Etabler og vedlikehold en helhetlig sikkerhetsarkitektur" name="NSM GP 2.2.1">
+                    <goal>Etabler og vedlikehold en helhetlig sikkerhetsarkitektur</goal>
+                </level3>
+                <level3 description="Bygg IKT-systemet med IKT-produkter som fungerer godt sammen sikkerhetsmessig" name="NSM GP 2.2.2">
+                    <goal>Bygg IKT-systemet med IKT-produkter som fungerer godt sammen sikkerhetsmessig</goal>
+                </level3>
+                <level3 description="Del opp virksomhetens nettverk etter virksomhetens risikoprofil" name="NSM GP 2.2.3">
+                    <goal>Del opp virksomhetens nettverk etter virksomhetens risikoprofil</goal>
+                </level3>
+                <level3 description="Skill fysisk de mest kritiske del-nettverkene" name="NSM GP 2.2.4">
+                    <goal>Skill fysisk de mest kritiske del-nettverkene</goal>
+                </level3>
+                <level3 description="Del opp domenearkitekturen iht. virksomhetens behov" name="NSM GP 2.2.5">
+                    <goal>Del opp domenearkitekturen iht. virksomhetens behov</goal>
+                </level3>
+                <level3 description="Reguler tilgang til tjenester basert på kjennskap til både brukere og enhet" name="NSM GP 2.2.6">
+                    <goal>Reguler tilgang til tjenester basert på kjennskap til både brukere og enhet</goal>
+                </level3>
+                <level3 description="Etabler en robust og motstandsdyktig IKT-arkitektur" name="NSM GP 2.2.7">
+                    <goal>Etabler en robust og motstandsdyktig IKT-arkitektur</goal>
+                </level3>
+            </level2>
+            <level2 description="Ivareta en sikker konfigurasjon" name="NSM 2.3">
+                <level3 description="Etabler et sentralt styrt regime for sikkerhetsoppdatering" name="NSM GP 2.3.1">
+                    <goal>Etabler et sentralt styrt regime for sikkerhetsoppdatering</goal>
+                </level3>
+                <level3 description="Konfigurer klienter slik at kun kjent programvare kjører på dem" name="NSM GP 2.3.2">
+                    <goal>Konfigurer klienter slik at kun kjent programvare kjører på dem</goal>
+                </level3>
+                <level3 description="Deaktiver unødvendig funksjonalitet" name="NSM GP 2.3.3">
+                    <goal>Deaktiver unødvendig funksjonalitet</goal>
+                </level3>
+                <level3 description="Etabler og vedlikehold standard sikkerhetskonfigurasjoner" name="NSM GP 2.3.4">
+                    <goal>Etabler og vedlikehold standard sikkerhetskonfigurasjoner</goal>
+                </level3>
+                <level3 description="Verifiser at aktivert sikkerhetskonfigurasjon er i henhold til virksomhetens godkjente sikkerhetskonfigurasjon" name="NSM GP 2.3.5">
+                    <goal>Verifiser at aktivert sikkerhetskonfigurasjon er i henhold til virksomhetens godkjente sikkerhetskonfigurasjon</goal>
+                </level3>
+                <level3 description="Utfør all konfigurasjon, installasjon, og drift for øvrig på en trygg måte" name="NSM GP 2.3.6">
+                    <goal>Utfør all konfigurasjon, installasjon, og drift for øvrig på en trygg måte</goal>
+                </level3>
+                <level3 description="Endre alle standardpassord på IKT-produktene før produksjonssetting" name="NSM GP 2.3.7">
+                    <goal>Endre alle standardpassord på IKT-produktene før produksjonssetting</goal>
+                </level3>
+                <level3 description="Ikke deaktiver kodebeskyttelsesfunksjoner" name="NSM GP 2.3.8">
+                    <goal>Ikke deaktiver kodebeskyttelsesfunksjoner</goal>
+                </level3>
+                <level3 description="Etabler sikker tid i virksomheten" name="NSM GP 2.3.9">
+                    <goal>Etabler sikker tid i virksomheten</goal>
+                </level3>
+                <level3 description="Reduser risiko med IoT-enheter" name="NSM GP 2.3.10">
+                    <goal>Reduser risiko med IoT-enheter</goal>
+                </level3>
+            </level2>
+            <level2 description="Beskytt virksomhetens nettverk" name="NSM 2.4">
+                <level3 description="Etabler tilgangskontroll på flest mulige nettverksporter" name="NSM GP 2.4.1">
+                    <goal>Etabler tilgangskontroll på flest mulige nettverksporter</goal>
+                </level3>
+                <level3 description="Krypter alle trådløse og kablede forbindelser" name="NSM GP 2.4.2">
+                    <goal>Krypter alle trådløse og kablede forbindelser</goal>
+                </level3>
+                <level3 description="Kartlegg fysisk tilgjengelighet for svitsjer og kabler" name="NSM GP 2.4.3">
+                    <goal>Kartlegg fysisk tilgjengelighet for svitsjer og kabler</goal>
+                </level3>
+                <level3 description="Aktiver brannmur på alle klienter og servere" name="NSM GP 2.4.4">
+                    <goal>Aktiver brannmur på alle klienter og servere</goal>
+                </level3>
+            </level2>
+            <level2 description="Kontroller dataflyt" name="NSM 2.5">
+                <level3 description="Styr dataflyt mellom nettverks-soner" name="NSM GP 2.5.1">
+                    <goal>Styr dataflyt mellom nettverks-soner</goal>
+                </level3>
+                <level3 description="Begrens tilgangen til interne tjenester fra eksterne lokasjoner" name="NSM GP 2.5.2">
+                    <goal>Begrens tilgangen til interne tjenester fra eksterne lokasjoner</goal>
+                </level3>
+                <level3 description="Sperr all direkte-trafikk mellom klienter" name="NSM GP 2.5.3">
+                    <goal>Sperr all direkte-trafikk mellom klienter</goal>
+                </level3>
+                <level3 description="Isoler utstyr som er sårbart og har lav tillitt" name="NSM GP 2.5.4">
+                    <goal>Isoler utstyr som er sårbart og har lav tillitt</goal>
+                </level3>
+                <level3 description="Styr dataflyten til spesielt eksponerte tjenester" name="NSM GP 2.5.5">
+                    <goal>Styr dataflyten til spesielt eksponerte tjenester</goal>
+                </level3>
+                <level3 description="Beskytt spesielt kritiske tjenester med egen dataflyt" name="NSM GP 2.5.6">
+                    <goal>Beskytt spesielt kritiske tjenester med egen dataflyt</goal>
+                </level3>
+                <level3 description="Ha kontroll på trafikk mellom virksomheten og samarbeidspartnere/ tjenesteleverandører" name="NSM GP 2.5.7">
+                    <goal>Ha kontroll på trafikk mellom virksomheten og samarbeidspartnere/ tjenesteleverandører</goal>
+                </level3>
+                <level3 description="Styr all trafikk (ikke bare interne tjenester) til og fra forvaltede mobile klienter via virksomhetens nett" name="NSM GP 2.5.8">
+                    <goal>Styr all trafikk (ikke bare interne tjenester) til og fra forvaltede mobile klienter via virksomhetens nett</goal>
+                </level3>
+            </level2>
+            <level2 description="Ha kontroll på identiteter og tilganger" name="NSM 2.6">
+                <level3 description="Etabler retningslinjer for tilgangskontroll" name="NSM GP 2.6.1">
+                    <goal>Etabler retningslinjer for tilgangskontroll</goal>
+                </level3>
+                <level3 description="Etabler en formell prosess for administrasjon av kontoer, tilganger og rettigheter" name="NSM GP 2.6.2">
+                    <goal>Etabler en formell prosess for administrasjon av kontoer, tilganger og rettigheter</goal>
+                </level3>
+                <level3 description="Benytt et sentralisert og automatiserbart verktøy for å styre kontoer, tilganger og rettigheter" name="NSM GP 2.6.3">
+                    <goal>Benytt et sentralisert og automatiserbart verktøy for å styre kontoer, tilganger og rettigheter</goal>
+                </level3>
+                <level3 description="Minimer rettigheter til sluttbrukere og spesialbrukere" name="NSM GP 2.6.4">
+                    <goal>Minimer rettigheter til sluttbrukere og spesialbrukere</goal>
+                </level3>
+                <level3 description="Minimer rettigheter på drifts-kontoer" name="NSM GP 2.6.5">
+                    <goal>Minimer rettigheter på drifts-kontoer</goal>
+                </level3>
+                <level3 description="Styr tilganger til enheter" name="NSM GP 2.6.6">
+                    <goal>Styr tilganger til enheter</goal>
+                </level3>
+                <level3 description="Bruk multi-faktor autentisering" name="NSM GP 2.6.7">
+                    <goal>Bruk multi-faktor autentisering</goal>
+                </level3>
+            </level2>
+            <level2 description="Beskytt data i ro og i transitt" name="NSM 2.7">
+                <level3 description="Etabler en strategi for håndtering av kryptografi i virksomheten" name="NSM GP 2.7.1">
+                    <goal>Etabler en strategi for håndtering av kryptografi i virksomheten</goal>
+                </level3>
+                <level3 description="Aktiver kryptering i de tjenestene som tilbyr slik funksjonalitet" name="NSM GP 2.7.2">
+                    <goal>Aktiver kryptering i de tjenestene som tilbyr slik funksjonalitet</goal>
+                </level3>
+                <level3 description="Krypter lagringsmedier som holder konfidensiell data og som lett kan mistes eller kompromitteres" name="NSM GP 2.7.3">
+                    <goal>Krypter lagringsmedier som holder konfidensiell data og som lett kan mistes eller kompromitteres</goal>
+                </level3>
+                <level3 description="Benytt kryptering når konfidensiell informasjon overføres eller når tilliten til informasjonskanalen er lav" name="NSM GP 2.7.4">
+                    <goal>Benytt kryptering når konfidensiell informasjon overføres eller når tilliten til informasjonskanalen er lav</goal>
+                </level3>
+                <level3 description="Definer krav til sikringsnivå for ulike typer informasjon" name="NSM GP 2.7.5">
+                    <goal>Definer krav til sikringsnivå for ulike typer informasjon</goal>
+                </level3>
+            </level2>
+            <level2 description="Beskytt e-post og nettleser" name="NSM 2.8">
+                <level3 description="Verifiser at innkommende e-post er fra en legitim avsender-adresse" name="NSM GP 2.8.1">
+                    <goal>Verifiser at innkommende e-post er fra en legitim avsender-adresse</goal>
+                </level3>
+                <level3 description="Aktiver STARTTLS på virksomhetens e-postserver" name="NSM GP 2.8.2">
+                    <goal>Aktiver STARTTLS på virksomhetens e-postserver</goal>
+                </level3>
+                <level3 description="Bruk kun støttede e-postklienter, nettlesere og programtillegg" name="NSM GP 2.8.3">
+                    <goal>Bruk kun støttede e-postklienter, nettlesere og programtillegg</goal>
+                </level3>
+                <level3 description="Tillat kun virksomhetsgodkjente programtillegg" name="NSM GP 2.8.4">
+                    <goal>Tillat kun virksomhetsgodkjente programtillegg</goal>
+                </level3>
+            </level2>
+            <level2 description="Etabler evne til gjenoppretting av data" name="NSM 2.9">
+                <level3 description="≤Legg en plan for regelmessig sikkerhetskopiering av alle virksomhetsdata" name="NSM GP 2.9.1">
+                    <goal>Legg en plan for regelmessig sikkerhetskopiering av alle virksomhetsdata</goal>
+                </level3>
+                <level3 description="Inkluder sikkerhetskopier av programvare" name="NSM GP 2.9.2">
+                    <goal>Inkluder sikkerhetskopier av programvare</goal>
+                </level3>
+                <level3 description="Test sikkerhetskopier regelmessig" name="NSM GP 2.9.3">
+                    <goal>Test sikkerhetskopier regelmessig</goal>
+                </level3>
+                <level3 description="Beskytt sikkerhetskopier mot tilsiktet og utilsiktet sletting, manipulering og avlesing" name="NSM GP 2.9.4">
+                    <goal>Beskytt sikkerhetskopier mot tilsiktet og utilsiktet sletting, manipulering og avlesing</goal>
+                </level3>
+            </level2>
+            <level2 description="Integrer sikkerhet i prosess for endringshåndtering" name="NSM 2.10">
+                <level3 description="Integrer sikkerhet i virksomhetens prosess for endringshåndtering" name="NSM GP 2.10.1">
+                    <goal>Integrer sikkerhet i virksomhetens prosess for endringshåndtering</goal>
+                </level3>
+                <level3 description="Involver nødvendig IKT-sikkerhetspersonell i forbindelse med endringer" name="NSM GP 2.10.2">
+                    <goal>Involver nødvendig IKT-sikkerhetspersonell i forbindelse med endringer</goal>
+                </level3>
+                <level3 description="Gjennomfør nødvendig endring, konfigurering og testing av påvirkede sikkerhetsfunksjoner" name="NSM GP 2.10.3">
+                    <goal>Gjennomfør nødvendig endring, konfigurering og testing av påvirkede sikkerhetsfunksjoner</goal>
+                </level3>
+                <level3 description="Integrer sikkerhet i virksomhetens prosess for hasteendringer" name="NSM GP 2.10.4">
+                    <goal>Integrer sikkerhet i virksomhetens prosess for hasteendringer</goal>
                 </level3>
             </level2>
         </level1>
         <level1 description="Kapittel 3. Oppdage" name="NSM Grunnprinsipper for IKT-sikkerhet">
-            <level2 description="Kartlegg styringsstrukturer, leveranser og understøttende systemer" name="NSM 1.1">
-                <level3 description="Identifiser virksomhetens strategi og prioriterte mål" name="NSM GP 1.1.1">
-                    <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
+            <level2 description="Oppdag og fjern kjente sårbarheter og trusler" name="NSM 3.1">
+                <level3 description="Gjennomfør jevnlig sårbarhetskartlegging" name="NSM GP 3.1.1">
+                    <goal>Gjennomfør jevnlig sårbarhetskartlegging.</goal>
                 </level3>
-                <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 1.1.2">
-                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
+                <level3 description="Abonner på tjenester relatert til sårbarhetsetteretning" name="NSM GP 3.1.2">
+                    <goal>Abonner på tjenester relatert til sårbarhetsetteretning</goal>
                 </level3>
-                <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 1.1.3">
-                    <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
+                <level3 description="Benytt automatisert og sentralist verktøy for å håndtere kjente trusler (som skadevare)" name="NSM GP 3.1.3">
+                    <goal>Benytt automatisert og sentralist verktøy for å håndtere kjente trusler (som skadevare)</goal>
+                </level3>
+            </level2>
+            <level2 description="Etabler sikkerhetsovervåkning" name="NSM 3.2">
+                <level3 description="Fastsett virksomhetens strategi og retningslinjer for sikkerhetsovervåkning" name="NSM GP 3.2.1">
+                    <goal>Fastsett virksomhetens strategi og retningslinjer for sikkerhetsovervåkning</goal>
+                </level3>
+                <level3 description="Følg lover, reguleringer og virksomhetens retningslinjer for sikkerhetsovervåkning" name="NSM GP 3.2.2">
+                    <goal>Følg lover, reguleringer og virksomhetens retningslinjer for sikkerhetsovervåkning</goal>
+                </level3>
+                <level3 description="Avgjør hvilke deler av IKT-systemet som skal overvåkes" name="NSM GP 3.2.3">
+                    <goal>Avgjør hvilke deler av IKT-systemet som skal overvåkes</goal>
+                </level3>
+                <level3 description="Beslutt hvilke data som er sikkerhetsrelevant og bør samles inn" name="NSM GP 3.2.4">
+                    <goal>Beslutt hvilke data som er sikkerhetsrelevant og bør samles inn.</goal>
+                </level3>
+                <level3 description="Verifiser at innsamling fungerer etter hensikt" name="NSM GP 3.2.5">
+                    <goal>Verifiser at innsamling fungerer etter hensikt</goal>
+                </level3>
+                <level3 description="Påse at innsamlet data ikke kan manipuleres" name="NSM GP 3.2.6">
+                    <goal>Påse at innsamlet data ikke kan manipuleres</goal>
+                </level3>
+                <level3 description="Gjennomgå og konfigurer innhenting av sikkerhetsrelevant data og den sentrale loggdatabasen" name="NSM GP 3.2.7">
+                    <goal>Gjennomgå og konfigurer innhenting av sikkerhetsrelevant data og den sentrale loggdatabasen.</goal>
+                </level3>
+            </level2>
+            <level2 description="Analyser data fra sikkerhetsovervåkning" name="NSM 3.3">
+                <level3 description="Lage en plan for analyse av data fra sikkerhetsovervåkning" name="NSM GP 3.3.1">
+                    <goal>Lage en plan for analyse av data fra sikkerhetsovervåkning.</goal>
+                </level3>
+                <level3 description="Etabler og vedlikehold kompetanse om normaltilstanden i virksomhetens informasjonssystemer" name="NSM GP 3.3.2">
+                    <goal>Etabler og vedlikehold kompetanse om normaltilstanden i virksomhetens informasjonssystemer</goal>
+                </level3>
+                <level3 description="Ta i bruk verktøy som muliggjør manuelle og automatiske søk, samt alarmering basert på kriterier" name="NSM GP 3.3.3">
+                    <goal>Ta i bruk verktøy som muliggjør manuelle og automatiske søk, samt alarmering basert på kriterier</goal>
+                </level3>
+                <level3 description="Innhent og bearbeid trusselinformasjon fra relevante kilder" name="NSM GP 3.3.4">
+                    <goal>Innhent og bearbeid trusselinformasjon fra relevante kilder.</goal>
+                </level3>
+                <level3 description="Vurder fortløpende om innhentet data er tilstrekkelig relevant og detaljert" name="NSM GP 3.3.5">
+                    <goal>Vurder fortløpende om innhentet data er tilstrekkelig relevant og detaljert</goal>
+                </level3>
+                <level3 description="Etabler rutine for eskalering av alarmer" name="NSM GP 3.3.6">
+                    <goal>Etabler rutine for eskalering av alarmer</goal>
+                </level3>
+                <level3 description="Benytt analyseverktøy, teknologi og algoritmer" name="NSM GP 3.3.7">
+                    <goal>Benytt analyseverktøy, teknologi og algoritmer.</goal>
+                </level3>
+            </level2>
+            <level2 description="Gjennomfør inntrengningstester" name="NSM 3.4">
+                <level3 description="Planlegg inntrengningstester med tydelig mål og omfang" name="NSM GP 3.4.1">
+                    <goal>Planlegg inntrengningstester med tydelig mål og omfang.</goal>
+                </level3>
+                <level3 description="Involver relevante interesseparter i forkant" name="NSM GP 3.4.2">
+                    <goal>Involver relevante interesseparter i forkant</goal>
+                </level3>
+                <level3 description="Benytt verktøy for sårbarhetskartlegging og angrepsverktøy" name="NSM GP 3.4.3">
+                    <goal>Benytt verktøy for sårbarhetskartlegging og angrepsverktøy</goal>
+                </level3>
+                <level3 description="Gjennomfør jevnlige inntrengningstester (minst årlige) for å identifisere sårbarheter" name="NSM GP 3.4.4">
+                    <goal>Gjennomfør jevnlige inntrengningstester (minst årlige) for å identifisere sårbarheter.</goal>
+                </level3>
+                <level3 description="Test rutiner for deteksjon og beredskap" name="NSM GP 3.4.5">
+                    <goal>Test rutiner for deteksjon og beredskap</goal>
+                </level3>
+                <level3 description="Kommuniser resultater fra inntrengningstester til relevante interesseparter" name="NSM GP 3.4.6">
+                    <goal>Kommuniser resultater fra inntrengningstester til relevante interesseparter</goal>
                 </level3>
             </level2>
         </level1>
         <level1 description="Kapittel 4. Håndtere og gjenopprett" name="NSM Grunnprinsipper for IKT-sikkerhet">
-            <level2 description="Kartlegg styringsstrukturer, leveranser og understøttende systemer" name="NSM 1.1">
-                <level3 description="Identifiser virksomhetens strategi og prioriterte mål" name="NSM GP 1.1.1">
-                    <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
+            <level2 description="Forbered virksomheten på håndtering av hendelser" name="NSM 4.1">
+                <level3 description="Etabler et planverk for hendelseshåndtering" name="NSM GP 4.1.1">
+                    <goal>Etabler et planverk for hendelseshåndtering.</goal>
                 </level3>
-                <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 1.1.2">
-                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
+                <level3 description="Gjennomfør en analyse av virksomhetskritiske effekter" name="NSM GP 4.1.2">
+                    <goal>Gjennomfør en analyse av virksomhetskritiske effekter</goal>
                 </level3>
-                <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 1.1.3">
-                    <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
+                <level3 description="Utarbeid rolle-og ansvarsbeskrivelse for personell som skal involveres i hendelseshåndtering" name="NSM GP 4.1.3">
+                    <goal>Utarbeid rolle-og ansvarsbeskrivelse for personell som skal involveres i hendelseshåndtering</goal>
+                </level3>
+                <level3 description="Utarbeid avtaler med relevante tredjeparter" name="NSM GP 4.1.4">
+                    <goal>Utarbeid avtaler med relevante tredjeparter.</goal>
+                </level3>
+                <level3 description="Fastsett hvilke kommunikasjonskanaler som skal benyttes i forbindelse med hendelser" name="NSM GP 4.1.5">
+                    <goal>Fastsett hvilke kommunikasjonskanaler som skal benyttes i forbindelse med hendelser</goal>
+                </level3>
+                <level3 description="Test og øv på planer jevnlig slik at disse er godt innøvd" name="NSM GP 4.1.6">
+                    <goal>Test og øv på planer jevnlig slik at disse er godt innøvd</goal>
+                </level3>
+            </level2>
+            <level2 description="Vurder og klassifiser hendelser" name="NSM 4.2">
+                <level3 description="Gjennomgå loggdata og samle relevante data om hendelsen for å oppnå et godt beslutningsgrunnlag" name="NSM GP 4.2.1">
+                    <goal>Gjennomgå loggdata og samle relevante data om hendelsen for å oppnå et godt beslutningsgrunnlag.</goal>
+                </level3>
+                <level3 description="Avgjør alvorlighetsgrad for hendelsen" name="NSM GP 4.2.2">
+                    <goal>Avgjør alvorlighetsgrad for hendelsen</goal>
+                </level3>
+                <level3 description="Informer relevante interesseparter" name="NSM GP 4.2.3">
+                    <goal>Informer relevante interesseparter</goal>
+                </level3>
+            </level2>
+            <level2 description="Kontroller og håndter hendelser" name="NSM 4.3">
+                <level3 description="Kartlegg omfang og påvirkning på forretningsprosesser" name="NSM GP 4.3.1">
+                    <goal>Kartlegg omfang og påvirkning på forretningsprosesser.</goal>
+                </level3>
+                <level3 description="Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak" name="NSM GP 4.3.2">
+                    <goal>Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak</goal>
+                </level3>
+                <level3 description="Loggfør alle aktiviter, resultater og relevante avgjørelser" name="NSM GP 4.3.3">
+                    <goal>Loggfør alle aktiviter, resultater og relevante avgjørelser</goal>
+                </level3>
+                <level3 description="Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen" name="NSM GP 4.3.4">
+                    <goal>Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen.</goal>
+                </level3>
+                <level3 description="Koordiner og kommuniser med interne og eksterne interessenter underveis i hendelseshåndtering" name="NSM GP 4.3.5">
+                    <goal>Koordiner og kommuniser med interne og eksterne interessenter underveis i hendelseshåndtering</goal>
+                </level3>
+                <level3 description="Gjennomfør nødvendige aktiviteter i etterkant av hendelsen" name="NSM GP 4.3.6">
+                    <goal>Gjennomfør nødvendige aktiviteter i etterkant av hendelsen</goal>
+                </level3>
+            </level2>
+            <level2 description="Evaluer og lær av hendelser" name="NSM 4.4">
+                <level3 description="Identifiser erfaringer og læringspunkter («lessons learned») fra hendelser" name="NSM GP 4.4.1">
+                    <goal>Identifiser erfaringer og læringspunkter («lessons learned») fra hendelser.</goal>
+                </level3>
+                <level3 description="Kartlegg og gjennomgå identifiserte, kompromitterte sikkerhetstiltak" name="NSM GP 4.4.2">
+                    <goal>Kartlegg og gjennomgå identifiserte, kompromitterte sikkerhetstiltak</goal>
+                </level3>
+                <level3 description="Vurdere effektiviteten av prosesser, prosedyrer, rapporteringsinformater og organisatoriske strukturer med tanke på å respondere på hendelser" name="NSM GP 4.4.3">
+                    <goal>Vurdere effektiviteten av prosesser, prosedyrer, rapporteringsinformater og organisatoriske strukturer med tanke på å respondere på hendelser</goal>
+                </level3>
+                <level3 description="Kommuniser og del erfaringsresultatene med (relevante) interessenter" name="NSM GP 4.4.4">
+                    <goal>Kommuniser og del erfaringsresultatene med (relevante) interessenter</goal>
+                </level3>
                 </level3>
             </level2>
         </level1>
