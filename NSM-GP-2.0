@@ -11,7 +11,7 @@
                     <goal>Identifiser virksomhetens strategi og prioriterte mål, samt regelverk, bransjenormer og avtaler som kan ha innvirkning på sikring av informasjonssystemer.</goal>
                 </level3>
                 <level3 description="Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring" name="NSM GP 1.1.2">
-                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring</goal>
+                    <goal>Identifiser virksomhetens strukturer og prosesser for sikkerhetsstyring. Dette inkluderer normalt a) policyer fra ledelsen, b) ledelsesstruktur med veldefinert ansvar og ansvarslinjer, c) prosesser for risikostyring (se 1.1.3) d) fastsatte toleransegrenser for risiko (se 1.1.4), e) tilføring av tilstrekkelige ressurser og fagkompetanse for å støtte ledelsen i arbeidet. f) Etabler strukturer og prosesser for sikkerhetsstyring dersom dette mangler. Sørg for at det tilpasses virksomheten og er en inkludert del av virksomhetsstyringen. Se «Utdypende informasjon» for ytterligere informasjon.</goal>
                 </level3>
                 <level3 description="Identifiser virksomhetens prosesser for risikostyring knyttet til IKT" name="NSM GP 1.1.3">
                     <goal>Identifiser virksomhetens prosesser for risikostyring knyttet til IKT</goal>
@@ -345,22 +345,22 @@
         <level1 description="Kapittel 4. Håndtere og gjenopprett" name="NSM Grunnprinsipper">
             <level2 description="Forbered virksomheten på håndtering av hendelser" name="NSM GP 4.1">
                 <level3 description="Etabler et planverk for hendelseshåndtering" name="NSM GP 4.1.1">
-                    <goal>Etabler et planverk for hendelseshåndtering som ivaretar behovet for virksomhetskontinuitet ved beredskap og krise.</goal>
+                    <goal>Etabler et planverk for hendelseshåndtering som ivaretar behovet for virksomhetskontinuitet ved beredskap og krise. Dette bør inkludere a) en oversikt over krav til gjenopprettelse av IKTfunksjoner, IKT-tjenester og IKT-systemer basert på en analyse av konsekvenser for virksomheten («BIA – Business Impact Analysis»), b) rolle- og ansvarsbeskrivelser for relevant personell, c) krav til opplæring for relevant personell, d) klassifiseringsregime for hendelser og grenseverdier for å aktivere krisestab, e) krav til testing og øving av planverk og personell. f) Revider og oppdater planverket jevnlig, minst en gang i året og i etterkant av øvelser og større hendelser eller angrep. </goal>
                 </level3>
                 <level3 description="Gjennomfør en analyse av virksomhetskritiske effekter" name="NSM GP 4.1.2">
-                    <goal>Gjennomfør en analyse av virksomhetskritiske effekter</goal>
+                    <goal>Gjennomfør en analyse av virksomhetskritiske effekter. Denne bør inkludere: a) prioritering av vitale forretningsfunksjoner og krav til sikkerhetsnivå for disse, b) identifiserte avhengigheter til IKT-funksjoner, IKT-tjenester, IKT-systemer, mm., c) krav til gjenopprettelsestid, tap av data og tjenestenivå.</goal>
                 </level3>
                 <level3 description="Utarbeid rolle-og ansvarsbeskrivelse for personell som skal involveres i hendelseshåndtering" name="NSM GP 4.1.3">
-                    <goal>Utarbeid rolle-og ansvarsbeskrivelse for personell som skal involveres i hendelseshåndtering</goal>
+                    <goal>Utarbeid rolle- og ansvarsbeskrivelse for personell som skal involveres i hendelseshåndtering. Dette inkluderer: a) Personell med sentrale oppgaver, for eksempel IT-sjef, applikasjonsansvarlig, plattformansvarlig mm. b) Ledere med beslutningsansvar på ulike nivåer. c) Beredskapsvakter som er tilgjengelig utenom normal arbeidstid og i ferieperioder. d) Sørg for tilstrekkelig opplæring og øving av personell i henhold til beskrivelse i planverk. </goal>
                 </level3>
                 <level3 description="Utarbeid avtaler med relevante tredjeparter" name="NSM GP 4.1.4">
                     <goal>Utarbeid avtaler med relevante tredjeparter slik at disse er klare til å yte støtte dersom det kreves ved en hendelse. Dette kan være sektorvise responsmiljøer, IT-spesialister innen ulike fagfelt, leverandører av utstyr og programvare mm.</goal>
                 </level3>
                 <level3 description="Fastsett hvilke kommunikasjonskanaler som skal benyttes i forbindelse med hendelser" name="NSM GP 4.1.5">
-                    <goal>Fastsett hvilke kommunikasjonskanaler som skal benyttes i forbindelse med hendelser</goal>
+                    <goal>Fastsett hvilke kommunikasjonskanaler som skal benyttes i forbindelse med hendelser. a) Distribuer kontaktinformasjon for relevant personell. b) Lag en plan for alternative kommunikasjonskanaler. c) Etabler en plan for intern og ekstern kommunikasjon rundt hendelser.</goal>
                 </level3>
                 <level3 description="Test og øv på planer jevnlig slik at disse er godt innøvd" name="NSM GP 4.1.6">
-                    <goal>Test og øv på planer jevnlig slik at disse er godt innøvd</goal>
+                    <goal>Test og øv på planer jevnlig slik at disse er godt innøvd. a) Øvelser bør inkludere relevante underleverandører. b) Øvelser bør inkludere testing av rutiner for deteksjon og beredskap, se 3.4.5.</goal>
                 </level3>
             </level2>
             <level2 description="Vurder og klassifiser hendelser" name="NSM GP 4.2">
@@ -379,19 +379,19 @@
                     <goal>Kartlegg omfang og påvirkning på forretningsprosesser. Kartlegg hendelsens påvirkning på underliggende IKT-funksjoner, IKT-tjenester og IKT-systemer. Se 4.1.2. </goal>
                 </level3>
                 <level3 description="Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak" name="NSM GP 4.3.2">
-                    <goal>Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak. Dersom omfanget øker og ser ut til å få alvorlige konsekvenser for virksomhetens forretningsprosesser bør kriseresponsaktiviteter iverksettes ved å eskalere til krisehåndteringsfunksjonen.</goal>
+                    <goal>Undersøk om hendelsen er under kontroll og gjennomfør nødvendige reaktive tiltak. Dersom omfanget øker og ser ut til å få alvorlige konsekvenser for virksomhetens forretningsprosesser bør kriseresponsaktiviteter iverksettes ved å eskalere til krisehåndteringsfunksjonen. Eksempler på reaktive tiltak er: a) Allokering av internt og eksternt personell for å håndtere hendelsen. b) Innkapsling og blokkering av inntrenger for å hindre spredning. c) Terminering av truende eller kompromitterende aktiviteter i systemer, for eksempel ved å stenge ned kompromitterte, interne servere som kan benyttes for videre angrep.</goal>
                 </level3>
                 <level3 description="Loggfør alle aktiviter, resultater og relevante avgjørelser" name="NSM GP 4.3.3">
-                    <goal>Loggfør alle aktiviteter, resultater og relevante avgjørelser for senere analyse.</goal>
+                    <goal>Loggfør alle aktiviteter, resultater og relevante avgjørelser for senere analyse. a) Etabler en tidslinje for egne og trusselaktørens aktiviteter. b) Oppdater hendelsesdata og situasjonsbilde underveis for best håndtering av hendelsen. c) Sikre elektroniske bevis for skadevareanalyse og eventuelle rettslige prosesser, se også prinsipp 3.2 - Etabler sikkerhetsovervåkning.</goal>
                 </level3>
                 <level3 description="Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen" name="NSM GP 4.3.4">
-                    <goal>Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen. Tiltakene vil variere avhengig av type hendelse</goal>
+                    <goal>Iverksett gjenopprettingsplan i løpet av, eller i etterkant av hendelsen. Tiltakene vil variere avhengig av type hendelse, men kan inkludere: a) Reaktivere redundante ressurser som ble tapt eller skadet under hendelsesforløpet. b) Reinstallere maskin- og programvare på rammede komponenter. c) Gjenopprette konfigurasjonsinnstillinger, med eventuelle tilpasninger. d) Gjenopprette tjenester som ble stoppet under hendelsesforløpet. IKT-systemene bør bygges opp til en bedre forfatning enn de var i før hendelsen inntraff («build back better»). </goal>
                 </level3>
                 <level3 description="Koordiner og kommuniser med interne og eksterne interessenter underveis i hendelseshåndtering" name="NSM GP 4.3.5">
                     <goal>Koordiner og kommuniser med interne og eksterne interessenter underveis i hendelseshåndteringen. Dette kan være intern drift, ledelsen, interne avdelinger og andre virksomheter som kan bli påvirket av hendelsen. Virksomheten bør også ha en klar mediestrategi ved hendelser som kan ha en interesse for medier og allmenheten.</goal>
                 </level3>
                 <level3 description="Gjennomfør nødvendige aktiviteter i etterkant av hendelsen" name="NSM GP 4.3.6">
-                    <goal>Gjennomfør nødvendige aktiviteter i etterkant av hendelsen. Alvorlighetsgrad av hendelsen og virksomhetens kompetanse og kapasitet vil være styrende for hva som gjennomføres og om det skal gjøres av internt eller eksternt personell.</goal>
+                    <goal>Gjennomfør nødvendige aktiviteter i etterkant av hendelsen. Alvorlighetsgrad av hendelsen og virksomhetens kompetanse og kapasitet vil være styrende for hva som gjennomføres og om det skal gjøres av internt eller eksternt personell. Det kan være aktiviteter som: a) Etterforsking for å finne rotårsak til hendelsen, inkludert: a1) Type skadevare a2) Trusselaktør a3) Angrepsvektor a4) Verktøy a5) Hvordan hendelsesforløpet utviklet seg og hvordan trusselaktøren handlet. b) Oppsummerende rapport som ledelsen kan forstå og ta stilling til. c) Kommunikasjon med relevante parter, inkludert sektorvise responsmiljøer og/eller NSM NCSC.</goal>
                 </level3>
             </level2>
             <level2 description="Evaluer og lær av hendelser" name="NSM GP 4.4">
