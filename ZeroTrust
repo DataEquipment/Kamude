@@ -1,36 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<soa>
-		<name>Zero Trust kontroller</name>
-		<chapters>
-		<level1 name="AIS" description="Identify the protect surface">
-			<level2 name="AIS" description="Application &amp; Interface Security">
-				<level3 name="AIS-01" description="Application Security"/>
-				<level3 name="AIS-02" description="Customer Access Requirements"/>
-			</level2>
-		</level1>
-		<level1 name="AAC" description="Map the transaction flows">
-			<level2 name="AAC" description="Audit Assurance &amp; Compliance">
-				<level3 name="AAC-01" description="Audit Planning"/>
-			</level2>
-		</level1>
-
-		<level1 name="AAC" description="Build a Zero Trust architecture">
-			<level2 name="AAC" description="Audit Assurance &amp; Compliance">
-				<level3 name="AAC-01" description="Audit Planning"/>
-			</level2>
-		</level1>
-
-		<level1 name="AAC" description="Create Zero Trust policy">
-			<level2 name="AAC" description="Audit Assurance &amp; Compliance">
-				<level3 name="AAC-01" description="Audit Planning"/>
-			</level2>
-		</level1>
-
-		<level1 name="AAC" description="Monitor and maintain">
-			<level2 name="AAC" description="Audit Assurance &amp; Compliance">
-				<level3 name="AAC-01" description="Audit Planning"/>
-			</level2>
-		</level1>
-
+<!DOCTYPE soa PUBLIC "-//KAMUDE//DTD RTRMAP SOA//EN"
+                     "https://dtd.opengrc.org/examples/rtrmap-soa.dtd">
+<soa>
+	<lang>en-us</lang>
+	<name>Zero Trust</name>
+    <chapters>
+        <level1 description="Zero Trust" name="Zero Trust kontroller">
+            <level2 description="Eier av applikasjon" name="Zero Trust">
+                <level3 description="Eier av applikasjon" name="Zero Trust">
+                    <goal>Er eier av applikasjon dokumentert?</goal>
+                    <info>Dette er viktig</info>
+                </level3>
+            </level2>
+            <level2 description="Visibilitet" name="Zero Trust">
+                <level3 description="Visibilitet, segmentering" name="Zero Trust">
+                    <goal>Er graden av visibilitet god nok? Er mikrosegmentering relevant og nødvendig?</goal>
+                    <info>Er god nok segmentering på plass?</info>
+                </level3>
+                <level3 description="Visibilitet, SSL dekryptering" name="Zero Trust">
+                    <goal>Er inngående SSL dekryptering relevant og på plass?</goal>
+                    <info>Inngående segmentering er enkelt</info>
+                </level3>
+            </level2>
+            <level2 description="Tilgangsstyring" name="Zero Trust">
+                <level3 description="Tilgangsstyring, kontroll på brukere" name="Zero Trust">
+                    <goal>Har man dokumentert hvem som skal ha tilgang?</goal>
+                </level3>
+                <level3 description="Tilgangsstyring, inngående applikasjonskontroll" name="Zero Trust">
+                    <goal>Er inngående tilgangskontroll relevant og på plass?</goal>
+                </level3>
+                <level3 description="Tilgangsstyring, utgående applikasjonskontroll" name="Zero Trust">
+                    <goal>Er utgående tilgangskontroll relevant og på plass?</goal>
+                </level3>
+                <level3 description="Tilgangsstyring, MFA" name="Zero Trust">
+                    <goal>Er MFA relevant og konfigurert?</goal>
+                </level3>
+                <level3 description="Tilgangsstyring, HIP/DUO" name="Zero Trust">
+                    <goal>Er HIP eller Duo kontroll på plass?</goal>
+                </level3>
+                <level3 description="Tilgangsstyring, Just in time" name="Zero Trust">
+                    <goal>Er JIT på plass?</goal>
+                </level3>
+                <level3 description="Tilgangsstyring, Need to know, least priviledge" name="Zero Trust">
+                    <goal>Er Least priviledge på plass?</goal>
+                </level3>
+            </level2>
+            <level2 description="Inspeksjon" name="Zero Trust">
+                <level3 description="Inspeksjon, av tillatt trafikk" name="Zero Trust">
+                    <goal>Er inspeksjon av all trafikk på plass?</goal>
+                </level3>
+            </level2>
+            <level2 description="Arkitektur" name="Zero Trust">
+                <level3 description="Mikrosegmentering" name="Zero Trust">
+                    <goal>Er mikrosegmentering relevant og på plass?</goal>
+                </level3>
+            </level2>
+            <level2 description="Logging" name="Zero Trust">
+                <level3 description="Logging" name="Zero Trust">
+                    <goal>Er logging på plass?</goal>
+                </level3>
+            </level2>
+        </level1>
+        <level1 description="Zero Trust in english" name="Zero Trust Controls">
+            <level2 description="Define the protected surface" name="Zero Trust">
+                <level3 description="Define the protected surface" name="Zero Trust">
+                    <goal>With zero trust, you don’t focus on your attack surface but only on your protect surface ─ the critical data, applications, assets and services (DAAS) most valuable for your company. Examples of a protect surface include credit card information, protected health information (PHI), personally identifiable information (PII), intellectual property (IP), applications (off-the-shelf or custom software); assets such as SCADA controls, point-of-sale terminals, medical equipment, manufacturing assets and IoT devices; as well as services like DNS, DHCP and Active Directory. 
+                    	Once the protect surface is defined, you can move your controls as close as possible to it, enabling you to create a micro-perimeter (or compartmentalized micro-perimeters) with policy statements that are limited, precise and understandable.</goal>
+            		<info>https://www.helpnetsecurity.com/2020/03/02/building-zero-trust/</info>
+                </level3>
+            </level2>
+            <level2 description="Map transaction flows" name="Zero Trust">
+                <level3 description="Map transaction flows" name="Zero Trust">
+                    <goal>The way traffic moves across a network determines how it should be protected. Thus, you need to gain contextual insight around the interdependencies of your DAAS. Documenting how specific resources interact allows you to properly enforce controls and provides valuable context to help ensure optimal cybersecurity with minimal disruption to users and business operations.</goal>
+                </level3>
+            </level2>
+            <level2 description="Architect your zero trust IT network" name="Zero Trust">
+                <level3 description="Architect your zero trust IT network" name="Zero Trust">
+                    <goal>Zero trust networks are completely customized, not derived from a single, universal design. Instead, the architecture is constructed around the protect surface. Once you’ve defined the protect surface and mapped flows relative to the needs of your business, you can map out the zero trust architecture, starting with a next-generation firewall. The next-generation firewall acts as a segmentation gateway, creating a micro-perimeter around the protect surface. With a segmentation gateway, you can enforce additional layers of inspection and access control, all the way to Layer 7, for anything trying to access resources within the protect surface.</goal>
+                </level3>
+            </level2>
+            <level2 description="Create your zero trust security policies" name="Zero Trust">
+                <level3 description="Create your zero trust security policies" name="Zero Trust">
+                    <goal>Once the network is architected, you will need to create zero trust policies determining access. You need to know who your users are, what applications they need to access, why they need access, how they tend to connect to those applications, and what controls can be used to secure that access. 
+                    	With this level of granular policy enforcement, you can be sure that only known allowed traffic or legitimate application communication is permitted.</goal>
+                </level3>
+            </level2>
+            <level2 description="Monitor and maintain networks" name="Zero Trust">
+                <level3 description="Monitor and maintain networks" name="Zero Trust">
+                    <goal>This final step includes reviewing all logs, internal and external, and focusing on the operational aspects of zero trust. Since zero trust is an iterative process, inspecting and logging all traffic will provide valuable insights into how to improve the network over time.</goal>
+                </level3>
+            </level2>
+        </level1>
 	</chapters>
 </soa>
